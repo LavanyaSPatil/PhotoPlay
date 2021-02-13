@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E9A41DE3-65A8-4AF6-A903-04987E89C741"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8841564-E931-494D-8C66-72838A6D85CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/PhotoVideoThumbnailTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "configure(photo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "109A3517-C1FA-4D60-A399-3161BDA5BB8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/Networking/Manager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getPhotoSearch(searchStr:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66B98F19-21F3-4C8E-9E4F-F1C3C932D3E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getPhotosList(searchStr:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4F974A5-3D64-4284-8FFD-56A4F4742534"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getPhotosList(searchStr:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B65A35FB-75D3-452D-BA93-4460C505A9DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getPhotosList(searchStr:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B65A35FB-75D3-452D-BA93-4460C505A9DB - b4b0461db785ee23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosAndVideosApp.HomeViewModel.getPhotosList(searchStr: Swift.String) -&gt; ()"
+                  moduleName = "PhotosAndVideosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavanyaspatil/Desktop/PhotosAndVideosApp/PhotosAndVideosApp/PhotosAndVideosApp/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "B65A35FB-75D3-452D-BA93-4460C505A9DB - 2aa9142923c0c6f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PhotosAndVideosApp.Result&lt;PhotosAndVideosApp.PhotosBaseJson, PhotosAndVideosApp.HandleError&gt;) -&gt; () in PhotosAndVideosApp.HomeViewModel.getPhotosList(searchStr: Swift.String) -&gt; ()"
+                  moduleName = "PhotosAndVideosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavanyaspatil/Desktop/PhotosAndVideosApp/PhotosAndVideosApp/PhotosAndVideosApp/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "177">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66F881D4-CC43-4F90-9AC4-EFE1F2114C27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosAndVideosApp/PhotoVideoThumbnailTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "favBtnTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66F881D4-CC43-4F90-9AC4-EFE1F2114C27 - 5693844bea3aa1ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosAndVideosApp.PhotoVideoThumbnailTableViewCell.favBtnTapped(Any) -&gt; ()"
+                  moduleName = "PhotosAndVideosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavanyaspatil/Desktop/PhotosAndVideosApp/PhotosAndVideosApp/PhotosAndVideosApp/PhotoVideoThumbnailTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2802">
+               </Location>
+               <Location
+                  uuid = "66F881D4-CC43-4F90-9AC4-EFE1F2114C27 - 2e8a95621464ce4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (PhotosAndVideosApp.Videos) -&gt; Swift.Bool in PhotosAndVideosApp.PhotoVideoThumbnailTableViewCell.favBtnTapped(Any) -&gt; ()"
+                  moduleName = "PhotosAndVideosApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavanyaspatil/Desktop/PhotosAndVideosApp/PhotosAndVideosApp/PhotosAndVideosApp/PhotoVideoThumbnailTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "123">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

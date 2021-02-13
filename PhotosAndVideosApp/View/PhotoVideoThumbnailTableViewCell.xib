@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PhotoVideoThumbnailTableViewCell" id="QRD-gk-OdG" customClass="PhotoVideoThumbnailTableViewCell" customModule="PhotosAndVideosApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QRD-gk-OdG" id="9pm-DW-vsq">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TK8-Q6-mgm">
+                        <rect key="frame" x="10" y="10" width="394" height="190"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="190" id="6bw-ze-VNB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="Lw0-14-hHM">
+                        <rect key="frame" x="20" y="152" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="pDy-KW-UuV"/>
+                            <constraint firstAttribute="width" constant="36" id="zVU-Fk-GEF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Su Xinyi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkO-5n-0Z8">
+                        <rect key="frame" x="66" y="161.5" width="52" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videoicon" translatesAutoresizingMaskIntoConstraints="NO" id="dbq-7F-eYT">
+                        <rect key="frame" x="175" y="68" width="64" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64" id="27D-UJ-RPQ"/>
+                            <constraint firstAttribute="width" constant="64" id="9zh-b2-hhf"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ET-Z3-YW3">
+                        <rect key="frame" x="370" y="20" width="24" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="74D-h0-nA9"/>
+                            <constraint firstAttribute="height" constant="22" id="pWy-i9-cJp"/>
+                        </constraints>
+                        <state key="normal" image="Favorite-deslect"/>
+                        <connections>
+                            <action selector="favBtnTapped:" destination="QRD-gk-OdG" eventType="touchUpInside" id="06z-m2-CHa"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lw0-14-hHM" firstAttribute="leading" secondItem="9pm-DW-vsq" secondAttribute="leading" constant="20" id="43W-vE-hke"/>
+                    <constraint firstItem="dbq-7F-eYT" firstAttribute="centerX" secondItem="9pm-DW-vsq" secondAttribute="centerX" id="6d9-fp-Yom"/>
+                    <constraint firstItem="4ET-Z3-YW3" firstAttribute="top" secondItem="9pm-DW-vsq" secondAttribute="top" constant="20" id="FXL-6x-0iI"/>
+                    <constraint firstItem="TK8-Q6-mgm" firstAttribute="top" secondItem="9pm-DW-vsq" secondAttribute="top" constant="10" id="HdK-ko-Inn"/>
+                    <constraint firstItem="TK8-Q6-mgm" firstAttribute="leading" secondItem="9pm-DW-vsq" secondAttribute="leading" constant="10" id="aON-KZ-zin"/>
+                    <constraint firstItem="zkO-5n-0Z8" firstAttribute="leading" secondItem="Lw0-14-hHM" secondAttribute="trailing" constant="10" id="gA2-Eg-Z3a"/>
+                    <constraint firstAttribute="trailing" secondItem="TK8-Q6-mgm" secondAttribute="trailing" constant="10" id="grO-4E-OMW"/>
+                    <constraint firstAttribute="bottom" secondItem="Lw0-14-hHM" secondAttribute="bottom" constant="12" id="niK-Fw-7dt"/>
+                    <constraint firstItem="zkO-5n-0Z8" firstAttribute="centerY" secondItem="Lw0-14-hHM" secondAttribute="centerY" id="r3F-jP-6UT"/>
+                    <constraint firstAttribute="bottom" secondItem="TK8-Q6-mgm" secondAttribute="bottom" id="rtg-ro-qDM"/>
+                    <constraint firstAttribute="trailing" secondItem="4ET-Z3-YW3" secondAttribute="trailing" constant="20" id="t1I-BX-xTq"/>
+                    <constraint firstItem="dbq-7F-eYT" firstAttribute="centerY" secondItem="9pm-DW-vsq" secondAttribute="centerY" id="tuU-3P-sTM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="favoriteBtn" destination="4ET-Z3-YW3" id="JLW-kT-d53"/>
+                <outlet property="photographersImageView" destination="Lw0-14-hHM" id="2bp-1Q-7zc"/>
+                <outlet property="photographersNameLabel" destination="zkO-5n-0Z8" id="FR8-MO-6dc"/>
+                <outlet property="thumbnailImageView" destination="TK8-Q6-mgm" id="U17-TK-cpc"/>
+                <outlet property="videoPlayerImageView" destination="dbq-7F-eYT" id="Dgv-5K-vLl"/>
+            </connections>
+            <point key="canvasLocation" x="257.97101449275362" y="23.4375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Favorite-deslect" width="31" height="30"/>
+        <image name="Oval" width="36" height="36"/>
+        <image name="Videoicon" width="64" height="64"/>
+    </resources>
+</document>
